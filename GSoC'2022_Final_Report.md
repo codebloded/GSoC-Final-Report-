@@ -42,11 +42,53 @@ I made up some APIs
 - Delete Assignmemts
 - Launch Assignment: This APIs is used for Launching the assignment which means assignment goes to every student associated to the assignment.
 - Return Assignment: This API made `isSubmitted:false` and update the `status:null` 
+- Update Comment : This API is responsible for adding comment coressponding to the assignment delivery by a teacher.
 - Submit Assignment: This API made `isSubmitted:false` and update `submissinDate: new Date().getTime()`
 
 I have build some Screens in dashboard.
+ - Add Assignment
 
+   API Route : `/api/v1/assignments`
 
+   URL :  `/dashboard/assignments/add`
+
+   Add Assignment View ⬇️
+
+   ![add](https://user-images.githubusercontent.com/48005711/192241981-a89e45f9-b710-4a69-88ab-281bf93cb71b.png)
+
+ - Edit Assignment
+
+   API Route : `/api/v1/assignments:assignmentId`
+
+   URL :  `/dashboard/assignments/edit/6331524e1b038f22b6e96bab`
+
+   Edit Asignment View ⬇️
+ 
+   ![edit](https://user-images.githubusercontent.com/48005711/192244633-bef6ef7b-5697-4a80-9330-6c757d0a6efc.png)
+  
+  - List All Assignment
+
+    API Route : `/api/v1/assignments`
+
+    URL :  `/dashboard/assignments/`
+
+    List All Asignments View ⬇️
+ 
+   ![kist](https://user-images.githubusercontent.com/48005711/192245324-3dda4e0a-4348-4707-8710-5e1425d55def.png)
+   
+  - List All Assignment Deliveries 
+   
+    API Route : `/api/v1/assignments/deliveries/:assignmentId`
+
+    URL :  `/dashboard/assignments/deliveries/6331524e1b038f22b6e96bab`
+
+    List All Asignment Deliveries View ⬇️
+
+   ![del](https://user-images.githubusercontent.com/48005711/192245993-a643cfc9-f465-4bd7-8745-7acd9a73a04b.png)
+   
+   Functionalities in dashboard for assignments :
+   - Search Assignment and Filter by Status.
+   - Restrict to duplicate the assignment entry by journal view in dashboard.
 
  
 
