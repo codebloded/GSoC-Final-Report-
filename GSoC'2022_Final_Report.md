@@ -36,13 +36,13 @@ I created some APIs for assignment feature in sugarizer-server. Also created som
 ### 🟢 Phase 1 Sugarizer-server (Dashboard)
 
 Features Implemented :
-- Create : Teachers can create assignment in the dashboard.
-- Edit : A teacher can only edit assignments made my themselves. 
-- Delete : A teacher can only delete assignments made my themselves.
-- Launch Assignment : When the teacher launches an assignment, that assignment will go to all the students who are associated with that assignment.
-- Submit Assignment : This feature is used through the Sugarizer client app, which allows a student to submit their assignments.
-- Return Assignment : When the teacher returns an assignment for one student, that student can resubmit that assignment.
-- Update Comment : A teacher can add a comment to give some remarks or grades on a particular delivery.
+- **Create** : Teachers can create assignment in the dashboard.
+- **Edit** : A teacher can only edit assignments made my themselves. 
+- **Delete** : A teacher can only delete assignments made my themselves.
+- **Launch Assignment** : When the teacher launches an assignment, that assignment will go to all the students who are associated with that assignment.
+- **Submit Assignment** : This feature is used through the Sugarizer client app, which allows a student to submit their assignments.
+- **Return Assignment** : When the teacher returns an assignment for one student, that student can resubmit that assignment.
+- **Update Comment** : A teacher can add a comment to give some remarks or grades on a particular delivery.
 
 
 I have build some Screens in dashboard.
@@ -96,8 +96,55 @@ I have build some Screens in dashboard.
 
  
 ### 🟢 Phase 2 Sugarizer (Client App).
+Assignments shown in Journal view in Sugarizer, where both the journal entry and the assignment entry are listed together.
+When the student login to Sugarizer, student will get an Assignment icon show in the toolbar of the Home View on which click which will open the Journal View. ⬇️
 
-Features Implemented:
+![as](https://user-images.githubusercontent.com/48005711/192636984-895105e5-9e8c-4e09-a677-2ed654295358.gif)
+
+**Features Implemented** : 
+- List assignments in journal view.
+
+  ![Screenshot from 2022-09-28 02-50-07](https://user-images.githubusercontent.com/48005711/192637754-7292195b-7899-4e76-a422-c7baec24f9e9.png)
+
+  ![Screenshot from 2022-09-28 03-02-44](https://user-images.githubusercontent.com/48005711/192639735-d04e504d-a709-459d-bb74-4196cf566441.png)
+    * Assignment icon : Assignment icon has been placed so that it can be seen that this is an assignment entry.
+    * See instructions : Created a popup to see the instructions for the assignment
+    * 
+      ![ins](https://user-images.githubusercontent.com/48005711/192640696-b8369915-8c0f-44d6-bc55-296856e960fd.gif)
+    * Due Date : Last date to submit the assignment.
+ 
+- Filter assignment.
+
+  Filter Assignment button filters the assignments by journal and displays all the assignment entries. So, student can easily deifferentiate between the   assignment and journal.
+  
+   ![fil](https://user-images.githubusercontent.com/48005711/192642047-6e2d81ee-d291-49f0-8e97-12adafdfba67.gif)
+
+- Forbid Actions.
+Implemented some forbid action like:
+  * Duplicate : Students can't duplicate an assignment entry using the feature that is used to duplicate the journal entry.
+  * Copy : Student can't copy the assignment entry.
+  * Delete : Can't delete the assignment entry.
+  
+  Working ⬇️
+  
+  ![for](https://user-images.githubusercontent.com/48005711/192648753-aa655490-f8b9-4428-b9cb-b9a7fae768a3.gif)
+
+- Sort by Due Date :
+  This feature sorts the assignments by their due date. So that the student can sort and check which assignment due date is near.
+  
+  ![Screenshot from 2022-09-28 04-12-58](https://user-images.githubusercontent.com/48005711/192650473-3818459b-64e2-40c1-88a0-4f6a37e20eff.png)
+  
+
+### 🟠 Miscellaneous work.
+
+- Documentation of APIs.
+- Tests for APIs
+
+
+
+
+
+
 
 
 
