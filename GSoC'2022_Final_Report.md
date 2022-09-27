@@ -23,7 +23,7 @@ Mentor: [Nikhil Mehra](https://github.com/NikhilM98) , [Lionel Laské](https://g
 
 ## My Work in Project
 
-My work in the project is to add features to allow teachers to give assignments to students. Assignments are handled by a teacher from the sugarizer-server dashboard. 
+My work in the project is to add features which allow teachers to give assignments to students. Assignments are handled by a teacher from the sugarizer-server dashboard. 
 
 My project is divided into two phases:
 1. [Sugarizer-server](https://github.com/llaske/sugarizer-server)
@@ -37,8 +37,8 @@ I created some APIs for assignment feature in sugarizer-server. Also created som
 
 Features Implemented :
 - Create : Teachers can create assignment in the dashboard.
-- Edit : Teachers can edit the assignments which are created on their own.
-- Delete : Teachers can delete the assignments which are created on their own.
+- Edit : A teacher can only edit assignments made my themselves. 
+- Delete : A teacher can only delete assignments made my themselves.
 - Launch Assignment : When the teacher launches an assignment, that assignment will go to all the students who are associated with that assignment.
 - Submit Assignment : This feature is used through the Sugarizer client app, which allows a student to submit their assignments.
 - Return Assignment : When the teacher returns an assignment for one student, that student can resubmit that assignment.
@@ -83,9 +83,9 @@ I have build some Screens in dashboard.
    Functionalities in dashboard for assignments :
    - Search Assignment and Filter by Status.
       ![Screenshot from 2022-09-27 16-06-28](https://user-images.githubusercontent.com/48005711/192504171-0bbabd17-75b5-489d-834d-25d6ed7ff35e.png)
-        - Search Assignmet by its name.
-        - Search Assignment by its status.
-        - Also we can filter the assignment by the combination of its name and its status. ⬇️
+        - Search Assignmet by it's name.
+        - Search Assignment by it's status.
+        - Also we can filter the assignment by the combination of it's name and it's status. ⬇️
         ![Screenshot from 2022-09-27 16-12-49](https://user-images.githubusercontent.com/48005711/192505350-922c50f6-c2e6-41bd-9ba0-1aacf484e03c.png)
         - There are three types of status with an assignment. ⬇️
         
