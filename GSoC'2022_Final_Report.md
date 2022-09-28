@@ -93,6 +93,8 @@ I have build some Screens in dashboard.
         
    - Restrict to duplicate the assignment entry by journal view in dashboard.
    ![restrict](https://user-images.githubusercontent.com/48005711/192507029-e441d958-ba27-4c99-a88a-49985d0cd631.gif)
+   
+   **🟣 Pull Request** : [PR #334](https://github.com/llaske/sugarizer-server/pull/334)
 
  
 ### 🟢 Phase 2 Sugarizer (Client App).
@@ -134,6 +136,7 @@ Implemented some forbid action like:
   
   ![Screenshot from 2022-09-28 04-12-58](https://user-images.githubusercontent.com/48005711/192650473-3818459b-64e2-40c1-88a0-4f6a37e20eff.png)
   
+ **🟣 Pull Request** : [PR #1092](https://github.com/llaske/sugarizer/pull/1092)
 
 ### 🟠 Miscellaneous work.
 
