@@ -30,7 +30,6 @@ My project is divided into two phases:
 2. [Sugarizer](https://github.com/llaske/sugarizer) (Client Application)
 
 I created some APIs for assignment feature in sugarizer-server. Also created some UIs called views in sugarizer-server dashboard to interact with assignments.
-------More to add------
 
 ## ✔️ Work Completed
 ### 🟢 Phase 1 Sugarizer-server (Dashboard)
