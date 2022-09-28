@@ -37,8 +37,8 @@ I created some APIs for assignment feature in sugarizer-server. Also created som
 
 Features Implemented :
 - **Create** : Teachers can create assignment in the dashboard.
-- **Edit** : A teacher can only edit assignments made my themselves. 
-- **Delete** : A teacher can only delete assignments made my themselves.
+- **Edit** : A teacher can only edit assignments made by themselves. 
+- **Delete** : A teacher can only delete assignments made by themselves.
 - **Launch Assignment** : When the teacher launches an assignment, that assignment will go to all the students who are associated with that assignment.
 - **Submit Assignment** : This feature is used through the Sugarizer client app, which allows a student to submit their assignments.
 - **Return Assignment** : When the teacher returns an assignment for one student, that student can resubmit that assignment.
@@ -141,9 +141,13 @@ Implemented some forbid action like:
 - Tests for APIs
 
 
+## My Experience
+
+My overall GSoC'2022 experience was very thrilling. I made small changes to understand the code base and build my project Sugarizer assignments.
+While doing this project, I learned to write high-quality code that fulfills all the project’s goals. I learned a lot of new libraries and worked on them. It was an amazing experience to write code that will be used by thousands of people around the world. Special thanks to my mentors [Nikhil Mehra](https://github.com/NikhilM98) and [Lionel Laské](https://github.com/llaske) for helping me get a good grasp of codebase in the early stages and also throughout the project.
 
 
-
+    
 
 
 
