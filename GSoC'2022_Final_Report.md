@@ -72,18 +72,18 @@ I have build some Screens in dashboard.
   
      ![mango](https://user-images.githubusercontent.com/48005711/192519428-05566cda-afa0-45cb-9615-5f17389dd5b9.gif)
      
-     -Such an assignment can be returned by a teacher to a particular student.
+     - Such an assignment can be returned by a teacher to a particular student.
      
      ![ret](https://user-images.githubusercontent.com/48005711/192520120-5e061f1d-4fcd-492a-9165-2469daadf062.gif)
-     After returning the delivery of an assignment, the status of that delivery is changed from "Delivered" to "Expected", which means that the                assignment can be submitted by the student to whom it has been returned.
+     After returning the delivery of an assignment, the status of that delivery is changed from "Delivered" to "Expected", which means that the                assignment can be submitted again by the student to whom it has been returned.
 
 
 
    Functionalities in dashboard for assignments :
    - Search Assignment and Filter by Status.
       ![Screenshot from 2022-09-27 16-06-28](https://user-images.githubusercontent.com/48005711/192504171-0bbabd17-75b5-489d-834d-25d6ed7ff35e.png)
-        - Search Assignmet by it's name.
-        - Search Assignment by it's status.
+        - Filter Assignmet by it's name.
+        - Filter Assignment by it's status.
         - Also we can filter the assignment by the combination of it's name and it's status. ⬇️
         ![Screenshot from 2022-09-27 16-12-49](https://user-images.githubusercontent.com/48005711/192505350-922c50f6-c2e6-41bd-9ba0-1aacf484e03c.png)
         - There are three types of status with an assignment. ⬇️
